@@ -1,0 +1,54 @@
+site_name: AbleCloud 开发文档
+theme_dir: ac_theme
+theme: mkdocs
+#theme:Flatly
+
+pages:
+#- Home: index.md
+- 基本介绍: introduction.md
+- 功能说明:
+    - 基本概念: features/concepts.md
+    - 功能介绍: features/functions.md
+- 开发指导:
+    - 客户端-安卓: develop_guide/android.md
+    - 客户端-iOS: develop_guide/iOS.md
+    - 客户端-微信: develop_guide/wechat.md
+    - 设备-嵌入式系统: develop_guide/device.md
+    - 设备-安卓系统: develop_guide/device_android.md
+#   - 设备-linux系统: develop_guide/device_linux.md
+    - 云端服务: develop_guide/cloud.md
+- Reference:
+    - 客户端-安卓: reference/android.md
+    - 客户端-iOS: reference/iOS.md
+    - 客户端-微信: reference/wechat.md
+    - 设备-嵌入式系统: reference/device.md
+    - 设备-安卓系统: reference/device_android.md
+#    - 设备-linux系统: reference/device_linux.md
+    - 云端服务: reference/cloud.md
+    - PHP SDK: reference/php.md
+    - Java SDK: reference/java.md
+    - Error Code: reference/error_code.md
+- Q&A: QandA.md
+
+
+
+
+
+
+#- 开发指导:
+#    - 安卓客户端: develop_guide/android.md
+#    - iOS 客户端: develop_guide/iOS.md
+#    - 微信客户端: develop_guide/wechat.md
+#    - 嵌入式设备: develop_guide/device.md
+#    - 安卓 设备: develop_guide/device_android.md
+#    - linux 设备: develop_guide/device_linux.md
+#    - 云端服务: develop_guide/cloud.md
+#    - 第三方云对接: develop_guide/third_proxy.md
+#- Reference:
+#    - 安卓客户端: reference/android.md
+#    - iOS 客户端: reference/iOS.md
+#    - 微信客户端: reference/wechat.md
+#    - 嵌入式设备: reference/device.md
+#    - 安卓 设备: reference/device_android.md
+#    - linux 设备: reference/device_linux.md
+#    - 云端服务 : reference/cloud.md
